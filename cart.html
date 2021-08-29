@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    
+    <title>cart items</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="" height="75px" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">our products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">customer Review</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> </a>
+                  </li>
+    
+                </ul>
+            </div>
+            </div>
+            </nav>
+
+
+            <!-- boddy cart  -->
+
+            
+
+  <!--cart iten details-->
+       
+        <div class="small-container cart-page">
+
+            <table> 
+                <tr>
+                    <th>
+                        product
+                    </th>
+                    <th>
+                        quantity
+                    </th>
+                    <th>
+                        subtotal
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/dhaka.png" alt="">
+                            <div>
+                                <p>
+                                    nepali dhaka
+                                </p>
+                                <small>price: 100$.00</small>
+                                <br>
+                                <a href="">remove</a>
+                            </div>
+                        </div>
+                        
+
+
+                    </td>
+                    <td>
+                        <input type="number"value="1">
+                    </td>
+                    <td>
+                        $ 100.00
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/thanga.jpg" alt="">
+                            <div>
+                                <p>
+                                    Tibetian thanga
+                                </p>
+                                <small>price: 100$.00</small>
+                                <br>
+                                <a href="">remove</a>
+                            </div>
+                        </div>
+                        
+
+
+                    </td>
+                    <td>
+                        <input type="number"value="1">
+                    </td>
+                    <td>
+                        $ 100.00
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/gorakha (1).jpg" alt="">
+                            <div>
+                                <p>
+                                    gorkhali khukuri
+                                </p>
+                                <small>price: 100$.00</small>
+                                <br>
+                                <a href="">remove</a>
+                            </div>
+                        </div>
+                        
+
+
+                    </td>
+                    <td>
+                        <input type="number"value="1">
+                    </td>
+                    <td>
+                        $ 100.00
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- we accept -->
+
+
+
+        
+    
+           <!-- Card -->
+      <div class="mb-3 text-center">
+        <div class="pt-4">
+
+          <h5 class="mb-4">We accept</h5>
+
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+            alt="Visa">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+            alt="American Express">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+            alt="Mastercard">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+            alt="PayPal acceptance mark">
+        </div>
+      </div>
+      <!-- Card -->
+
+    </div>
+
+
+
+
+
+
+            <!-- footer -->
+
+            <footer class="bg-light text-center text-lg-start">
+                <!-- Grid container -->
+                <div class="container p-4">
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          
+              
+                      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="" height="75px" width="100px"></a>
+                      <p>Yuna Handicrafts Nepal is your one-stop ONLINE shop in Nepal for high-quality, carefully selected, and ethically sourced 100% handmade Handicrafts from Nepal.</p>
+                    </div>
+                    <!--Grid column-->
+              
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                      <h5 class="text-uppercase mb-0">shop policies</h5>
+                      <br>
+              
+                      <ul class="list-unstyled">
+                        <li>
+                          <a href="#!" class="text-dark">payment options</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">privacy policy</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">return policy</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">shiping policy</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+              
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                      <h5 class="text-uppercase">quick links</h5>
+                      <br>
+              
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#!" class="text-dark">home</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">about2</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">contact</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">blog</a>
+                        </li>
+                        <li>
+                          <a href="#!" class="text-dark">FAQ</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+              
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                      <h5 class="text-uppercase mb-0">follow us</h5>
+                      <br>
+                      <br>
+              
+                      <ul class="list-unstyled">
+                        <li class="list-inline-item">
+                          <a href="facebook.com" class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                          </a>
+                        </li>
+                      
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2020 Copyright:
+                  <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+    <!-- Footer -->
+    
+    
+    
+              
+          
+            
+          
+            <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+
+             <!-- Vendor JS Files -->
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+      
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+
+    
+</body>
+</html>

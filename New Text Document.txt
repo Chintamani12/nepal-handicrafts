@@ -1,0 +1,72 @@
+ https://www.youtube.com/watch?v=pRrWa47gi2g
+
+ 
+ <div class="box">
+
+      <!-- img box----- -->
+      <div class="slide-img">
+        <img src="img/thanga1.jpg" alt="1">
+        <!-- over layer.. -->
+        <div class="overlay">
+          <!-- buy btn... -->
+          <a href="#" class="buy-btn">Buy now</a>
+        </div>
+      </div>
+      <!-- detail box -->
+      <div class="detail-box">
+        <!-- type -->
+        <div class="type">
+          <a href="#">rabbed cardigan</a>
+          <span>noe arrival</span>
+        </div>
+        <!-- price -->
+        <a href="#" class="price">$54</a>
+      </div>
+
+    </div>
+
+
+1.
+ <div class="box">
+        
+          <!-- img box----- -->
+          <div class="slide-img">
+            <img src="img/thanga1.jpg" alt="1">
+            <!-- over layer.. -->
+            <div class="overlay">
+              <!-- buy btn... -->
+              <a href="#" class="buy-btn">Buy now</a>
+            </div>
+          </div>
+          <!-- detail box -->
+          <div class="detail-box">
+            <!-- type -->
+            <div class="type">
+              <a href="#">rabbed cardigan</a>
+              <span>noe arrival</span>
+            </div>
+            <!-- price -->
+            <a href="#" class="price">$54</a>
+          </div>
+        
+        </div>
+
+
+
+3
+for slider
+ <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="img/thanga.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">This i <img class="card-img-top" datas a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>

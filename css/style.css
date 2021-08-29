@@ -1,0 +1,55 @@
+*{
+   
+}.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+   -webkit-background-size:cover;
+   backg
+round-size: cover;
+
+}
+.carousel-caption{
+    bottom: 250px;
+
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 23px;
+    font-family: merinds;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    font-family: poopins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: black;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+}
+.navbar-nav a{
+    font-family: poopins;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    color: black;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    
+}
